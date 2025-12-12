@@ -37,6 +37,7 @@ export default function App() {
 
       <ImageSliderModal
         open={open}
+        
         onClose={() => setOpen(false)}
         images={images}
       />
